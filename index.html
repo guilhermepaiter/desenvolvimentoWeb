@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/aPrettySolidIcon.png">
+    <title>Semantica V2</title>
+</head>
+<body>
+    <header>
+        <h1>Inscrição – Mostra de Tecnologia e Inovação 2026</h1>
+    </header>
+    <main>
+        <section style="display: flex;">
+            <article style="flex: 1;">
+                <fieldset>
+                    <legend>Formulário de Inscrição</legend>
+                    <form action="">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" required><br><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                        
+                        <label for="nascimento">Data de Nascimento:</label>
+                        <input type="date" id="nascimento" name="nascimento"><br><br>
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone"><br><br>
+
+                        <input type="submit" value="Enviar Inscrição">
+                    </form>
+                </fieldset>
+            </article>
+            <aside style="flex: 1; text-align: center; margin-top: 10px;">
+                <picture>
+                    <img src="images/aSolidTeam.png" width="300" height="200" alt="aPrettySolidTeam">
+                </picture>
+            </aside>
+        </section>
+        <section>
+            <article>
+                <fieldset>
+                    <legend>Dados Acadêmicos</legend>
+                    <form action="">
+
+                        <select name="curso" id="curso" required>
+                            <option value="">Selecione o seu Curso</option>
+                            <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                            <option value="dsm">Desenvolvimento de Software Multiplataforma</option>
+                            <option value="ge">Gestão Empresarial</option>
+                        </select><br><br>
+
+                        <label for="periodo">Período:</label><br>
+
+                        <input type="radio" id="matutino" name="periodo" value="matutino">
+                        <label for="matutino">Matutino</label><br>
+
+                        <input type="radio" id="vespertino" name="periodo" value="vespertino">
+                        <label for="vespertino">Vespertino</label><br>
+
+                        <input type="radio" id="noturno" name="periodo" value="noturno">
+                        <label for="noturno">Noturno</label><br><br>
+
+                        <input type="submit" value="Enviar Dados Acadêmicos">
+                    </form>
+                </fieldset>
+            </article>
+        </section>
+        <section>
+            
+        </section>
+    </main>
+</body>
+</html>

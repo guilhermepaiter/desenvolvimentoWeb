@@ -43,7 +43,6 @@
                 <fieldset>
                     <legend>Dados Acadêmicos</legend>
                     <form action="">
-
                         <select name="curso" id="curso" required>
                             <option value="">Selecione o seu Curso</option>
                             <option value="ads">Análise e Desenvolvimento de Sistemas</option>
@@ -68,7 +67,48 @@
             </article>
         </section>
         <section>
-            
+            <fieldset>
+                <legend>Áreas de interesse</legend>
+                <form action="">
+                    <label for="inter">Quais áreas de tecnologia são do seu interesse?</label><br>
+
+                    <input type="checkbox" name="dw" id="1">
+                    <label for="dw">Desenvolvimento Web</label><br>
+
+                    <input type="checkbox" name="ia" id="2">
+                    <label for="ia">Inteligência Artificial</label><br>
+
+                    <input type="checkbox" name="db" id="3">
+                    <label for="db">Banco de Dados</label><br>
+
+                    <input type="checkbox" name="dm" id="4">
+                    <label for="dm">Desenvolvimento Mobile</label><br>
+
+                    <input type="checkbox" name="si" id="5">
+                    <label for="si">Segurança da Informação</label><br><br>
+
+                    <input type="submit" value="Enviar Áreas de Interesse">
+                </form>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Forma de Participação</legend>
+                <form action="">
+                    <label for="party">Como você participará da Mostra?</label><br>
+
+                    <input type="radio" name="party" id="visita">
+                    <label for="visita">Visitante</label><br>
+
+                    <input type="radio" name="party" id="apresentador">
+                    <label for="apresentador">Apresentador de Projeto</label><br>
+
+                    <input type="radio" name="party" id="monitor">
+                    <label for="monitor">Monitor</label><br><br>
+
+                    <input type="submit" value="Enviar Forma de Participação">
+                </form>
+            </fieldset>
         </section>
     </main>
 </body>

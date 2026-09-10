@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/aPrettySolidIcon.png">
+    <title>Semantica V2</title>
+</head>
+<body>
+    <header>
+        <h1>Inscrição – Mostra de Tecnologia e Inovação 2026</h1>
+    </header>
+    <main>
+        <section>
+            <fieldset>
+                <legend>Formulário de Inscrição para a Amosta de Tecnologia e Inovação 2026</legend>
+                <section style="display: flex;">
+                    <article style="flex: 1;">
+                        <fieldset>
+                            <legend>Formulário de Inscrição</legend>
+                            <form action="">
+                                <label for="nome">Nome Completo:</label>
+                                <input type="text" id="nome" name="nome" required autofocus><br><br>
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required><br><br>
+                                
+                                <label for="nascimento">Data de Nascimento:</label>
+                                <input type="date" id="nascimento" name="nascimento"><br><br>
+
+                                <label for="telefone">Telefone:</label>
+                                <input type="tel" id="telefone" name="telefone"><br><br>
+
+                                <input type="submit" value="Enviar Inscrição">
+                            </form>
+                        </fieldset>
+                    </article>
+                    <aside style="flex: 1; text-align: center; margin-top: 10px;">
+                        <picture>
+                            <img src="images/aSolidTeam.png" width="300" height="200" alt="aPrettySolidTeam">
+                        </picture>
+                    </aside>
+                </section>
+                <section style="display: flex;">
+                    <article style="flex: 1;">
+                        <fieldset>
+                            <legend>Dados Acadêmicos</legend>
+                            <form action="">
+                                <select name="curso" id="curso" required>
+                                    <option value="">Selecione o seu Curso</option>
+                                    <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                                    <option value="dsm">Desenvolvimento de Software Multiplataforma</option>
+                                    <option value="ge">Gestão Empresarial</option>
+                                </select><br><br>
+
+                                <label for="periodo">Período:</label><br>
+
+                                <input type="radio" id="matutino" name="periodo" value="matutino" required>
+                                <label for="matutino">Matutino</label><br>
+
+                                <input type="radio" id="vespertino" name="periodo" value="vespertino">
+                                <label for="vespertino">Vespertino</label><br>
+
+                                <input type="radio" id="noturno" name="periodo" value="noturno">
+                                <label for="noturno">Noturno</label><br><br>
+
+                                <input type="submit" value="Enviar Dados Acadêmicos">
+                            </form>
+                        </fieldset>
+                    </article>
+                    <aside style="flex: 1;">
+                        <fieldset>
+                            <legend>Áreas de interesse</legend>
+                            <form action="">
+                                <label for="inter">Quais áreas de tecnologia são do seu interesse?</label><br>
+
+                                <input type="checkbox" name="dw" id="1">
+                                <label for="dw">Desenvolvimento Web</label><br>
+
+                                <input type="checkbox" name="ia" id="2">
+                                <label for="ia">Inteligência Artificial</label><br>
+
+                                <input type="checkbox" name="db" id="3">
+                                <label for="db">Banco de Dados</label><br>
+
+                                <input type="checkbox" name="dm" id="4">
+                                <label for="dm">Desenvolvimento Mobile</label><br>
+
+                                <input type="checkbox" name="si" id="5">
+                                <label for="si">Segurança da Informação</label><br><br>
+
+                                <input type="submit" value="Enviar Áreas de Interesse">
+                            </form>
+                        </fieldset>
+                    </aside>
+                </section>
+                <section style="display: flex;">
+                    <article style="flex: 1;">
+                        <fieldset>
+                            <legend>Forma de Participação</legend>
+                            <form action="">
+                                <label for="party">Como você participará da Mostra?</label><br>
+
+                                <input type="radio" name="party" id="visita" required>
+                                <label for="visita">Visitante</label><br>
+                                
+                                <input type="radio" name="party" id="apresentador">
+                                <label for="apresentador">Apresentador de Projeto</label><br>
+
+                                <input type="radio" name="party" id="monitor">
+                                <label for="monitor">Monitor</label><br><br>
+
+                                <input type="submit" value="Enviar Forma de Participação">
+                            </form>
+                        </fieldset>
+                    </article>
+                    <aside style="flex: 1;">
+                        <fieldset>
+                            <legend>Informações Adicionais</legend>
+                            <form action="">
+                                <label for="dtevent">Data em que deseja visitar o evento:</label>
+                                <input type="date" id="dtevent" name="dtevent"><br><br>
+
+                                <label for="people">Número de pessoas que irão com você:</label>
+                                <input type="number" id="people" name="people" min="0" max="6"><br><br><br>
+
+                                <input type="submit" value="Enviar Informações Adicionais">
+                            </form>
+                        </fieldset>
+                    </aside>
+                </section>
+                <section>
+                    <article>
+                        <fieldset>
+                            <legend>Observações</legend>
+                            <form action="">
+                                <label for="comentarios">Deixe suas observações ou sugestões:</label><br>
+                                <textarea name="comentarios" id="comentarios" rows="4" cols="50"></textarea><br><br>
+
+                                <input type="submit" value="Enviar Observações">
+                            </form>
+                        </fieldset>
+                    </article>
+                </section>
+                <section>
+                    <form>
+                        <p>Aceite os <a href="" style="color: #000;">Termos e Condições</a> para poder proseguir:</p>
+                        <input type="checkbox" name="term" id="term" required>
+                        <label for="term">Termos e Condições</label><br><br>
+
+                        <input type="submit" value="proseguir">
+                    </form>
+                </section>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>

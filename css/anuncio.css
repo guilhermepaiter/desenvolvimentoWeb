@@ -1,0 +1,35 @@
+#section1{
+    display: flex;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.felix{
+    flex: 1;
+}
+
+#image1{
+    margin-right: 20px;
+}
+
+.descricao{
+    margin: 20px;
+}
+
+aside{
+    text-align: center; 
+    margin-top: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: orange;
+}
+
+body{
+    background-color: blanchedalmond;
+}

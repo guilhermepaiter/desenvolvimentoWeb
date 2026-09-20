@@ -1,0 +1,33 @@
+*{
+    font-family: Arial;
+}
+
+#titulo-principal{
+    color: blue;
+    text-align: center;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    font-size: 18px;
+}
+
+.atividade{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.aviso{
+    color: red;
+    font-weight: bold;
+    background: yellow;
+}
+
+a{
+    color: white;
+    font-size: 18px;
+    background: blue;
+}

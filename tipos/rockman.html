@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClass first-child (even/odd)</title>
+</head>
+<style>
+    section p {
+        padding: 0 0 10px;
+    }
+
+    section span {
+        display: flex;
+        padding: 8px;
+    }
+    
+    section span:nth-child(2) {
+        background-color: aqua;
+    }
+
+    section span:nth-of-type(3) {
+        border: 2px solid blue;
+    }
+</style>
+<body>
+    <h1>Pseudo Class :first-child e :last-child</h1>
+    <form>
+        <label for="email">E-mail obrigatório: </label>
+        <input type="email" name="email" id="email" required placeholder="nome@exemplo.com">
+        <label for="codigo">Código desabilitado: </label>
+        <input id="codigo" value="Indisponível" disabled>
+        <label><input type="checkbox">Aceito os termos e condições</label>
+    </form>
+    <p>nth-child deixa o filho localizado como segundo com a cor azul e o nth-of-type que repete 3 vezes com borda azul.</p>
+</body>
+</html>

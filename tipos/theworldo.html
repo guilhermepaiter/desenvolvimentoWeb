@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body {
+        font-family: sans-serif;
+    }
+
+    button {
+        color: black;
+        background-color: lightblue;
+        border: 2px black solid;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: rgb(91, 91, 255);
+    }
+
+    button:active {
+        background-color: gold;
+        transition: ease-in 1s;
+    }
+
+    .efeito:hover {
+        color: aqua;
+    }
+
+    input {
+        padding: 10px;
+        border: 3px solid rgb(112, 112, 112);
+        border-radius: 4px;
+    }
+
+    input:focus {
+        background-color: aliceblue;
+        border-color: rgb(105, 105, 204);
+        outline: 3px solid rgb(255, 116, 116);
+        transition: ease-in 1s;
+    }
+</style>
+<body>
+    <h1>Pseudo Class :focus</h1>
+    <form>
+        <label for="nome">Stand: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu Stand">
+    </form> <br>
+    <button type="button">Muda Muda Muda</button>
+    <p>Segure o botão pra mudar a cor!</p>
+
+    <p class="efeito">Passe o mouse pelo paragrafo!</p>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body {
+        font-family: sans-serif;
+    }
+
+    button {
+        color: black;
+        background-color: lightblue;
+        border: 2px black solid;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: rgb(91, 91, 255);
+    }
+
+    button:active {
+        background-color: gold;
+        transition: ease-in 1s;
+    }
+
+    .efeito:hover {
+        color: aqua;
+    }
+
+    input {
+        padding: 10px;
+        border: 3px solid rgb(112, 112, 112);
+        border-radius: 4px;
+    }
+
+    input:focus {
+        background-color: aliceblue;
+        border-color: rgb(105, 105, 204);
+        outline: 3px solid rgb(255, 116, 116);
+        /* transition: ease-in 1s; */
+    }
+    
+    a:link {color: blue}
+    a:visited {color: purple}
+    a:hover {color: green}
+    a:active {color: tomato;}
+</style>
+<body>
+    <h1>Pseudo Class of links</h1>
+    <form>
+        <label for="nome">Stand: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu Stand">
+    </form> <br>
+    <button type="button">Muda Muda Muda</button>
+    <p>Segure o botão pra mudar a cor!</p>
+    <p><a href="https://www.youtube.com/watch?v=wuFfiTEr2yc">
+        This is a video of a amazing game a want to play!
+    </a></p>
+    <p><a href="https://www.nintendo.com/pt-br/store/products/the-legend-of-zelda-ocarina-of-time-switch-2/?srsltid=AU7gw4W8LFQ4O8zPdR5BUUOp2BBs9X8JbJvkrr98hWotWoPOGy5zrBSx">
+        buy it to me plz!
+    </a></p>
+    <p class="efeito">Passe o mouse pelo paragrafo!</p>
+</body>
+</html>
